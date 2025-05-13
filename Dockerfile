@@ -1,4 +1,4 @@
-FROM python:3.10.7
+FROM python:3.12.10
 
 ARG USR_APP_PATH=/usr/app
 ENV DBT_LOG_PATH=$USR_APP_PATH/logs
